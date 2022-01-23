@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juegos para el Hogar - Juego del Ahorcado</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>JUEGOS PARA EL HOGAR</h1>
+      </div>
+      <img src="images/Logo_EA.png" alt="" />
+    </header>
+
+    <section>
+      <h2>Juguemos Ahorcado</h2>
+      <div class="hangman__container">
+        <img id="img6" src="images/fondo_hangman.png" alt="" />
+        <img id="img5" src="images/vida_1.png" />
+        <img id="img4" src="images/vida_2.png" />
+        <img id="img3" src="images/vida_3.png" />
+        <img id="img2" src="images/vida_4.png" />
+        <img id="img1" src="images/vida_5.png" />
+        <img id="img0" src="images/vida_6.png" />
+        <img id="img7" src="images/vida_7.png" />
+      </div>
+      <h2 id="vidas"></h2>
+      <div class="word"></div>
+      <h2>Digite una letra, no olvide validarla</h2>
+      <h2 id="palabraGanada"></h2>
+      <div class="resolve__container">
+        <div class="button__text">
+          <input id="input__text" type="text" maxlength="1"/>
+        </div>
+        <div class="buttons">
+          <button id="button__check" onclick="comprobarLetra()">Validar</button>
+          <button id="button__reset" onclick="resetear()">Reset</button>
+        </div>
+      </div>
+      
+    </section>
+
+    <footer>
+      <a href="https://github.com/CristianMontoya98" target="_blank">
+        <img src="images/FinalC.png" alt=""
+      /></a>
+      <a href="https://github.com/CarlosPrentt" target="_blank">
+        <img src="images/logo Carlos.png" alt=""
+      /></a>
+      <a href="https://github.com/Miguel-Lopez-97" target="_blank">
+        <img src="images/LOGO v2.png" alt=""
+      /></a>
+      <a href="https://github.com/santilopezco" target="_blank">
+        <img src="images/Logo Tipo Santiago DEV.png" alt=""
+      /></a>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
